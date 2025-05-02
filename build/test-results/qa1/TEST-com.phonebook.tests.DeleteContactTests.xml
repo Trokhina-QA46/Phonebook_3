@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.DeleteContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-02T15:16:40" hostname="HOME-PC" time="1.872">
+  <properties/>
+  <testcase name="deleteContactTest" classname="com.phonebook.tests.DeleteContactTests" time="1.872"/>
+  <system-out><![CDATA[18:16:37.706 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testdeleteContactTest[]
+18:16:41.883 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: deleteContactTest
+18:16:41.883 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:16:41.883 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+]]></system-out>
+  <system-err><![CDATA[мая 02, 2025 6:16:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:16:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

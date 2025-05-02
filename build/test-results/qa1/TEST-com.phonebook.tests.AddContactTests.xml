@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.AddContactTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-05-02T15:13:43" hostname="HOME-PC" time="171.62">
+  <properties/>
+  <testcase name="addContactPositiveFromDataProviderTest[0](Lev, Levin, 1234567890, lev1@gmail.com, TA, QA)" classname="com.phonebook.tests.AddContactTests" time="0.792"/>
+  <testcase name="addContactPositiveFromDataProviderTest[1](Lev, Levin, 12345678990, lev1@gmail.com, TA, QA)" classname="com.phonebook.tests.AddContactTests" time="0.644"/>
+  <testcase name="addContactPositiveFromDataProviderTest[2](Lev, Levin, 123456789770, lev1@gmail.com, TA, QA)" classname="com.phonebook.tests.AddContactTests" time="0.686"/>
+  <testcase name="addContactPositiveFromDataProviderWithCsvFileTest[0](Contact{name='Lev', phone='1234567890'})" classname="com.phonebook.tests.AddContactTests" time="0.579"/>
+  <testcase name="addContactPositiveFromDataProviderWithCsvFileTest[1](Contact{name='Lack', phone='12345678989'})" classname="com.phonebook.tests.AddContactTests" time="0.587"/>
+  <testcase name="addContactPositiveFromDataProviderWithCsvFileTest[2](Contact{name='Bin ', phone='12345677789'})" classname="com.phonebook.tests.AddContactTests" time="0.713"/>
+  <testcase name="addContactPositiveFromDataProviderWithCsvFileTest[3](Contact{name='Tom', phone='12345555667'})" classname="com.phonebook.tests.AddContactTests" time="0.711"/>
+  <testcase name="addContactPositiveTest" classname="com.phonebook.tests.AddContactTests" time="0.599"/>
+  <system-out><![CDATA[18:13:22.438 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Lev, Levin, 1234567890, lev1@gmail.com, TA, QA]
+18:13:45.545 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveFromDataProviderTest
+18:13:45.546 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:13:45.546 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:13:47.554 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Lev, Levin, 12345678990, lev1@gmail.com, TA, QA]
+18:14:10.747 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveFromDataProviderTest
+18:14:10.751 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:14:10.751 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:14:12.202 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Lev, Levin, 123456789770, lev1@gmail.com, TA, QA]
+18:14:35.052 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveFromDataProviderTest
+18:14:35.052 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:14:35.052 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:14:36.532 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Lev', phone='1234567890'}]
+18:14:59.095 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveFromDataProviderWithCsvFileTest
+18:14:59.096 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:14:59.096 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:15:00.617 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Lack', phone='12345678989'}]
+18:15:23.255 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveFromDataProviderWithCsvFileTest
+18:15:23.256 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:15:23.256 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:15:24.755 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Bin ', phone='12345677789'}]
+18:15:47.720 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveFromDataProviderWithCsvFileTest
+18:15:47.720 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:15:47.720 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:15:49.278 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Tom', phone='12345555667'}]
+18:16:12.073 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveFromDataProviderWithCsvFileTest
+18:16:12.073 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:16:12.073 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:16:13.609 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveTest[]
+18:16:36.235 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: addContactPositiveTest
+18:16:36.235 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:16:36.235 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+]]></system-out>
+  <system-err><![CDATA[мая 02, 2025 6:13:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:13:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:13:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:13:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:14:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:14:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:14:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:14:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:15:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:15:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:15:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:15:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:15:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:15:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:16:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:16:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
