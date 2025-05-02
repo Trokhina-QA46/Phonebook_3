@@ -36,4 +36,8 @@ public class UserHelper extends BaseHelper {
     public void clickOnSignOutButton() {
         click(By.xpath("//button[.='Sign Out']"));
     }
+
+    public void clickOnRegisterLink() {
+        click(By.xpath(" //a[@href='registration']"));
+    }
 }

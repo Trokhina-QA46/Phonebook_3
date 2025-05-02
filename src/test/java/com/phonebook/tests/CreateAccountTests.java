@@ -26,6 +26,9 @@ public class CreateAccountTests extends TestBase{
         Assert.assertTrue(app.getUser().isAlertDisplayed());
 
     }
+
+
+
     @Test
     public void existedUserRegistrationNegativeTest() {
         app.getUser().clickOnLoginLink();
