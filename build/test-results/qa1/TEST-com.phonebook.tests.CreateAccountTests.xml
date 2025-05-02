@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.phonebook.tests.CreateAccountTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-19T16:02:22" hostname="HOME-PC" time="1.675">
+<testsuite name="com.phonebook.tests.CreateAccountTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-02T15:16:43" hostname="HOME-PC" time="6.126">
   <properties/>
-  <testcase name="existedUserRegistrationNegativeTest" classname="com.phonebook.tests.CreateAccountTests" time="1.675"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[апр. 19, 2025 7:02:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="existedUserRegistrationNegativeTest" classname="com.phonebook.tests.CreateAccountTests" time="1.569"/>
+  <testcase name="userRegistrationPositiveTest" classname="com.phonebook.tests.CreateAccountTests" time="1.527"/>
+  <system-out><![CDATA[18:16:43.420 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testexistedUserRegistrationNegativeTest[]
+18:16:44.994 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: existedUserRegistrationNegativeTest
+18:16:44.994 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:16:44.994 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:16:49.551 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: userRegistrationPositiveTest
+18:16:49.552 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:16:49.553 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+]]></system-out>
+  <system-err><![CDATA[мая 02, 2025 6:16:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 135
-апр. 19, 2025 7:02:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 135.0.7049.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:16:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>

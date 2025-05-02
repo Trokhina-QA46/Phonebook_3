@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.phonebook.tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-19T16:02:18" hostname="HOME-PC" time="1.814">
+<testsuite name="com.phonebook.tests.LoginTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-05-02T15:16:50" hostname="HOME-PC" time="7.881">
   <properties/>
-  <testcase name="loginNegativeWithoutEmailTests" classname="com.phonebook.tests.LoginTests" time="1.814"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[апр. 19, 2025 7:02:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="loginPositiveTests" classname="com.phonebook.tests.LoginTests" time="1.392"/>
+  <testcase name="registrationPositiveTest" classname="com.phonebook.tests.LoginTests" time="1.528"/>
+  <testcase name="loginNegativeWithoutEmailTests" classname="com.phonebook.tests.LoginTests" time="1.935"/>
+  <system-out><![CDATA[18:16:50.981 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testloginPositiveTests[]
+18:16:52.375 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: loginPositiveTests
+18:16:52.376 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:16:52.376 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:16:53.960 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testregistrationPositiveTest[]
+18:16:55.492 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: registrationPositiveTest
+18:16:55.492 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:16:55.492 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+18:16:56.927 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testloginNegativeWithoutEmailTests[]
+18:16:58.863 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: loginNegativeWithoutEmailTests
+18:16:58.863 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+18:16:58.863 [Test worker] INFO  com.phonebook.tests.TestBase -- =====================================================
+]]></system-out>
+  <system-err><![CDATA[мая 02, 2025 6:16:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 135
-апр. 19, 2025 7:02:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 135.0.7049.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:16:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:16:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:16:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 02, 2025 6:16:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+мая 02, 2025 6:16:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
